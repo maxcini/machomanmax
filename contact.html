@@ -21,8 +21,8 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,23 @@
                         </header>
                         <!-- Post content-->
                         <section class="mb-5">
-                            <p class="fs-5 mb-4">Put form here</p>
+
+                            <form action="https://formsubmit.co/maxcini@umich.edu.com" method="POST">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="text" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="6" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        
                         </section>
                     </article>
                 </div>
@@ -88,7 +104,7 @@
             </div>
         </div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-dark fixed-bottom">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Macho Man Max 2024</p></div>
         </footer>
         <!-- Bootstrap core JS-->
